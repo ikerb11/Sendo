@@ -4,6 +4,8 @@ import { provideRouter, withHashLocation } from '@angular/router';
 
 import { LayoutComponent } from './app/layout.component';
 import { InicioComponent } from './app/inicio/inicio.component';
+import { HistorialComponent } from './app/historial/historial.component';
+import { PerfilComponent } from './app/perfil/perfil.component';
 
 bootstrapApplication(AppComponent, {
   providers: [
@@ -14,7 +16,9 @@ bootstrapApplication(AppComponent, {
           path: '',
           component: LayoutComponent,
           children: [
-            { path: 'inicio', component: InicioComponent }
+            { path: 'inicio', component: InicioComponent },
+            { path: 'historial', component: HistorialComponent },
+            { path: 'perfil', component: PerfilComponent }
           ]
         }
       ],

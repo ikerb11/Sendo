@@ -1,0 +1,59 @@
+header {
+    background-color: #223C74; /* Light blue color */
+    color: #FFFFFF; /* color del texto */
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+    height: 6rem;
+    width: 100%;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 60%;
+    justify-content: space-around;
+}
+.NavLinks * {
+    margin: 0 1rem; /* Espacio entre los enlaces */
+}
+.CajaLogo{
+    padding-left: 1.25rem;
+    width: 200px;
+}
+.SendoLogo{
+    min-height: 60px;
+
+    min-width: 160px;
+    height: 1.875rem;
+
+
+
+}
+
+nav a{
+    max-height: 20%;
+    text-decoration: none; /* quitar subrayado */
+    color: #FFFFFF; /* color del texto */
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.CajaUsuario{
+    flex: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:end;
+    padding-right: 1.25rem;
+    opacity: 0.57;
+}
+.Usuario{
+    margin-bottom: 10px;
+    color: #FFFFFF; /* color del texto */
+    font-weight: bold;
+    font-size: 32px;
+}
+.Logout{
+    height: 30px;
+}
