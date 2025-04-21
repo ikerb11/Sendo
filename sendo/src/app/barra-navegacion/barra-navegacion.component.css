@@ -2,7 +2,7 @@ header {
     background-color: #223C74; /* Light blue color */
     color: #FFFFFF; /* color del texto */
     display: flex;
-    font-family: 'Inter', sans-serif;
+  
     align-items: center;
     height: 6rem;
     width: 100%;

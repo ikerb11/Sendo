@@ -6,6 +6,8 @@ import { LayoutComponent } from './app/layout.component';
 import { InicioComponent } from './app/inicio/inicio.component';
 import { HistorialComponent } from './app/historial/historial.component';
 import { PerfilComponent } from './app/perfil/perfil.component';
+import { NosotrosComponent } from './app/nosotros/nosotros.component';
+import { ContactoComponent } from './app/contacto/contacto.component';
 
 bootstrapApplication(AppComponent, {
   providers: [
@@ -18,7 +20,9 @@ bootstrapApplication(AppComponent, {
           children: [
             { path: 'inicio', component: InicioComponent },
             { path: 'historial', component: HistorialComponent },
-            { path: 'perfil', component: PerfilComponent }
+            { path: 'perfil', component: PerfilComponent },
+            { path: 'nosotros', component: NosotrosComponent },
+            { path: 'contacto', component: ContactoComponent }
           ]
         }
       ],
