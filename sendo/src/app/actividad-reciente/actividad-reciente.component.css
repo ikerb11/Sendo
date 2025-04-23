@@ -1,0 +1,47 @@
+section{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 17px;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+h2{
+    color: #002a68;
+    margin-left: 20px;
+}
+.CajaTransaccion {
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    border: #7f7f7f solid 3px;
+    border-radius: 14px;
+    margin: 20px;
+    padding: 0px 10px 0px 10px;
+    font-size: 18px;
+}
+  
+.arriba {
+    display: flex;
+    gap: 10px; /* espacio entre texto 1 y texto 2 */
+    justify-content: space-between;
+  }
+.arriba *{
+    margin-top: 5px;
+    margin-bottom: 6px;
+}
+
+.abajo {
+    order: 2;
+    margin-top: 6px;
+    margin-bottom: 5px;
+}
+.texto.rojo {
+    color: red;
+  }
+  
+  .texto.verde {
+    color: green;
+  }
+  
