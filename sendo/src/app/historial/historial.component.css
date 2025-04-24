@@ -1,0 +1,100 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.SeccionLista{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 17px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    min-width: 400px;
+    height: 100%;
+    min-height: fit-content;
+}
+.ListaTransacciones{
+
+    align-items: center;
+
+}
+button{
+    display: block;
+    
+
+}
+.CajaTransaccion {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: #7f7f7f solid 1px;
+    border-radius: 4px;
+    width: 95%;
+    margin: 20px;
+    padding: 0px 10px 0px 10px;
+    font-size: 18px;
+}
+  
+.arriba {
+    display: flex;
+    gap: 10px; /* espacio entre texto 1 y texto 2 */
+    justify-content: space-between;
+  }
+.arriba *{
+    margin-top: 5px;
+    margin-bottom: 6px;
+}
+
+.abajo {
+    order: 2;
+    display: flex;
+    gap: 10px; /* espacio entre texto 1 y texto 2 */
+    justify-content: space-between;
+    margin-top: 6px;
+}
+.abajo *{
+    margin-top: 5px;
+    margin-bottom: 6px;
+}
+.texto.rojo {
+    color: red;
+}
+
+.texto.verde {
+color: green;
+}
+
+.Filtro{
+    margin:20px;
+    width: auto;
+    width: 60%;
+}
+form{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 31px;
+    border: 2px solid #000000;
+    padding: 10px;
+}
+.busqueda{
+    margin-left:15px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 0px;
+    border: 0px solid #7f7f7f;
+}
+form button{
+    background-color: #ffffff; /* color de fondo */
+    color: black; /* color del texto */
+    border: none; /* quitar borde */
+    padding: 0.5rem 1rem; /* espacio interno */
+    border-radius: 0.25rem; /* bordes redondeados */
+    cursor: pointer; /* cursor de mano al pasar por encima */
+    font-size: 16px;
+}

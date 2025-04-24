@@ -1,12 +1,14 @@
 footer{
     box-shadow: 0rem 0rem 0.625rem rgba(0, 0, 0, 0.15);
     border-style: solid;
-    border-color: rgb(239, 239, 239);
+    border-color: rgb(244, 244, 244);
     border-bottom: 0px;
     border-left: 0px;
     border-right: 0px;
     bottom: 0px;
     font-family: 'Inter', sans-serif;
+    background-color: white;
+    margin-top: 30px;
 
 }
 .footerTop{
