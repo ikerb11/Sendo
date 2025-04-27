@@ -1,0 +1,21 @@
+main{
+    display: flex;
+    flex-direction: row ;
+}
+main *{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-self: center;
+}
+section{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 17px;
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    height: 100%;
+    min-height: fit-content;
+}
