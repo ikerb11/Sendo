@@ -57,3 +57,7 @@ nav a{
 .Logout{
     height: 30px;
 }
+button{
+    background-color: #223C74;
+    border: 0px;
+}

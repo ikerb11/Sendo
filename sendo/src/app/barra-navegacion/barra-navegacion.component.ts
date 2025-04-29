@@ -17,5 +17,13 @@ export class BarraNavegacionComponent {
   constructor(private authService: AuthService) {
     this.user$ = this.authService.user$;
   }
+  logout() {
+    this.authService.logout().then(() => {
+      console.log('Sesión cerrada correctamente');
+      window.location.reload();
+    }).catch((error) => {
+      console.error('Error al cerrar sesión', error);
+    });
+  }
 
 }
