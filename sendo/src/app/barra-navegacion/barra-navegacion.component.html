@@ -8,7 +8,9 @@
         </div>
 
         <div class="CajaUsuario">
-            <small class="Usuario" id="usuario">Nombre_Usuario</small>
+            <small class="Usuario" id="usuario" *ngIf="user$ | async as user">
+                👤 Hola, {{ user.displayName }}
+            </small>
             <img src="img/LogoutIcon.png" class="Logout" alt="Cerrar Usuario">
         </div>
     </nav>
